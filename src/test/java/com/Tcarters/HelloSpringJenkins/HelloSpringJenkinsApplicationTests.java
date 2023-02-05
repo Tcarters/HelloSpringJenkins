@@ -15,7 +15,7 @@ class HelloSpringJenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Test case executing....")
+		logger.info("Test case executing....");
 		// see if true
 		assertEquals(true, true);
 	}
