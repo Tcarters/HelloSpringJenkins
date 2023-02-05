@@ -1,12 +1,15 @@
 package com.Tcarters.HelloSpringJenkins;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import static org.junit.Assert.assertEquals;
+//import org.springframework.test.context.junit4.SpringRunner;
+//import static org.junit.Assert.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 @SpringBootTest
 class HelloSpringJenkinsApplicationTests {
 
