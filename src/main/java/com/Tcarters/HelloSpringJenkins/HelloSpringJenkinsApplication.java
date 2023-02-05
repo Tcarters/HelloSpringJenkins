@@ -3,11 +3,13 @@ package com.Tcarters.HelloSpringJenkins;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @SpringBootApplication
 public class HelloSpringJenkinsApplication {
 
-	public static Logger logger =LoggerFactory.getLogger(HelloSpringJenkinsApplication.class );
+	public static Logger logger = LoggerFactory.getLogger(HelloSpringJenkinsApplication.class );
 
 	//Init method
 	@PostConstruct
