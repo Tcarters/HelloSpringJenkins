@@ -17,9 +17,11 @@ class HelloSpringJenkinsApplicationTests {
 	public static Logger logger =LoggerFactory.getLogger(HelloSpringJenkinsApplicationTests.class );
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {  // To test fail build just remove  `void`
 		logger.info("Test case executing....");
 		// see if true
+		logger.info("Test case executing. Second build for false positive failed ...");
+
 		assertEquals(true, true);
 	}
 
